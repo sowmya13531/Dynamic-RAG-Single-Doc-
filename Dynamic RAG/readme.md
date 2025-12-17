@@ -98,6 +98,12 @@ If the answer is not found in the document, the app responds with:
 
 > **"I don't know"**
 
+## 🧠 Design Decisions
+
+- Used **RAG** to avoid hallucinations and ensure grounded answers
+- Selected **FAISS** for fast in-memory vector search
+- Used **FLAN-T5** for lightweight, CPU-friendly inference
+- Chunked text to balance context size and retrieval accuracy
 
 ## 📜 License
 
@@ -108,6 +114,3 @@ Feel free to use, modify, and distribute.
 
 **Sowmya Kanithi**
 🔗 GitHub: [Sowmya13531](https://github.com/sowmya13531)
-
-
-Just tell me 👍
