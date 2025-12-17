@@ -22,6 +22,10 @@ To build a simple and understandable **RAG pipeline** that:
 * 🤖 Answer generation using FLAN-T5
 * ⚡ Runs entirely in Google Colab (CPU)
 
+## Models Used
+- Embeddings - HuggingFaceEmbeddings ->  `sentence-transformers/all-MiniLM-L6-v2` - *Convert text chunks into semantic vectors*
+- LLM  - HuggingFacePipeline -> `google/flan-t5-base` - *Generate context-based answers (RAG output)*
+
 ## 🏗️ RAG Workflow Overview
 
 ```
