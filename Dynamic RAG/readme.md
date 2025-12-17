@@ -15,6 +15,12 @@ The system retrieves relevant document chunks using **FAISS + embeddings** and g
 * ⚡ Fast and lightweight (CPU-friendly)
 * 🌐 Deployed on Streamlit Cloud
 
+## Models Used
+- Embeddings - HuggingFaceEmbeddings ->  `sentence-transformers/all-MiniLM-L6-v2` - *Convert text chunks into semantic vectors*
+- LLM  - HuggingFacePipeline -> `google/flan-t5-base` - *Generate context-based answers (RAG output)*
+
+
+
 ## 🏗️ Architecture Overview
 
 ```
